@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магічна Країна Містерія</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Магічна Країна Містерія</h1>
+            <p>Натисніть на регіони, щоб відкрити магічні історії та вирушити у пригоди</p>
+        </header>
+
+        <main>
+            <div class="map-container">
+                <div class="map">
+                    <!-- Map regions using CSS-only interactivity -->
+                    <div class="region-wrapper">
+                        <input type="checkbox" id="forest-region" class="region-toggle">
+                        <label for="forest-region" class="region forest-region">
+                            <span class="region-name">Зачарований Ліс</span>
+                        </label>
+                        <div class="story-panel forest-story">
+                            <h2>Зачарований Ліс</h2>
+                            <p>Глибоко серед древніх дерев лежить ліс чудес і магії. Дерева шепочуть таємниці тим, хто уважно слухає.</p>
+                            <div class="choices">
+                                <p>Що ви будете робити?</p>
+                                <a href="forest-path1.html" class="choice">Слідувати за світними грибами</a>
+                                <a href="forest-path2.html" class="choice">Шукати мудру стару сову</a>
+                            </div>
+                            <label for="forest-region" class="close-btn">Повернутися до карти</label>
+                        </div>
+                    </div>
+
+                    <div class="region-wrapper">
+                        <input type="checkbox" id="mountain-region" class="region-toggle">
+                        <label for="mountain-region" class="region mountain-region">
+                            <span class="region-name">Кришталеві Гори</span>
+                        </label>
+                        <div class="story-panel mountain-story">
+                            <h2>Кришталеві Гори</h2>
+                            <p>Величні піки з кришталю ловлять сонячне світло, створюючи веселки над долинами. Кажуть, що древні дракони гніздяться серед найвищих вершин.</p>
+                            <div class="choices">
+                                <p>Що ви будете робити?</p>
+                                <a href="mountain-path1.html" class="choice">Піднятися до лігва дракона</a>
+                                <a href="mountain-path2.html" class="choice">Дослідити кришталеві печери</a>
+                            </div>
+                            <label for="mountain-region" class="close-btn">Повернутися до карти</label>
+                        </div>
+                    </div>
+
+                    <div class="region-wrapper">
+                        <input type="checkbox" id="lake-region" class="region-toggle">
+                        <label for="lake-region" class="region lake-region">
+                            <span class="region-name">Містичне Озеро</span>
+                        </label>
+                        <div class="story-panel lake-story">
+                            <h2>Містичне Озеро</h2>
+                            <p>Води, що мерехтять магічною енергією, дім для русалок та водних духів. Озеро змінює колір з фазами місяця.</p>
+                            <div class="choices">
+                                <p>Що ви будете робити?</p>
+                                <a href="lake-path1.html" class="choice">Пірнути під поверхню</a>
+                                <a href="lake-path2.html" class="choice">Поговорити з охоронцем озера</a>
+                            </div>
+                            <label for="lake-region" class="close-btn">Повернутися до карти</label>
+                        </div>
+                    </div>
+
+                    <div class="region-wrapper">
+                        <input type="checkbox" id="castle-region" class="region-toggle">
+                        <label for="castle-region" class="region castle-region">
+                            <span class="region-name">Літаючий Замок</span>
+                        </label>
+                        <div class="story-panel castle-story">
+                            <h2>Літаючий Замок</h2>
+                            <p>Величний замок, що висить у хмарах, дім для Небесних Чарівників, які контролюють погоду Містерії.</p>
+                            <div class="choices">
+                                <p>Що ви будете робити?</p>
+                                <a href="castle-path1.html" class="choice">Шукати аудієнції у Короля Чарівників</a>
+                                <a href="castle-path2.html" class="choice">Дослідити замкові сади</a>
+                            </div>
+                            <label for="castle-region" class="close-btn">Повернутися до карти</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Досліджуйте магічну країну Містерію - Інтерактивна пригода лише на CSS</p>
+        </footer>
+    </div>
+</body>
+</html>
