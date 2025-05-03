@@ -514,5 +514,12 @@ footer {
 }
 main{
     background-image: url("https://learn.logikaschool.com/uploads/student/3145383/6814f15dad8ab.jpg");
-color: white;
+color: rgb(251, 255, 0);
+}
+.class-option:active{
+background-color: #a83232;
+}
+.quest-prompt{
+    color: rgb(0, 242, 255);
+    
 }
