@@ -518,7 +518,7 @@ main{
 color: rgb(251, 255, 0);
 }
 .class-option:active{
-background-color: #a83232;
+background-color: #ff0000;
 }
 .quest-prompt{
     color: rgb(0, 242, 255);
